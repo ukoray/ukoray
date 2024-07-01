@@ -1,0 +1,2 @@
+server: rails s
+proxy: ngrok http --domain=$NGROK_DOMAIN --log=stdout 3000
